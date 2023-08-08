@@ -10,7 +10,7 @@
 import cmk.gui.sites as sites
 import cmk.gui.visuals as visuals
 from cmk.gui.i18n import _
-from cmk.gui.globals import html
+from cmk.gui.htmllib.html import html
 from cmk.gui.plugins.sidebar.utils import (
     CustomizableSidebarSnapin,
     snapin_registry,
